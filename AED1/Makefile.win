@@ -1,0 +1,33 @@
+# Project: Project2
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = main2.o I:/PENDRIVE/COMP1/aed/exer18a.o $(RES)
+LINKOBJ  = main2.o I:/PENDRIVE/COMP1/aed/exer18a.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib" -mwindows  
+INCS =  -I"C:/Dev-Cpp/include" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include" 
+BIN  = Project2.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before Project2.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "Project2.exe" $(LIBS)
+
+main2.o: main2.cpp
+	$(CPP) -c main2.cpp -o main2.o $(CXXFLAGS)
+
+I:/PENDRIVE/COMP1/aed/exer18a.o: I:/PENDRIVE/COMP1/aed/exer18a.cpp
+	$(CPP) -c I:/PENDRIVE/COMP1/aed/exer18a.cpp -o I:/PENDRIVE/COMP1/aed/exer18a.o $(CXXFLAGS)

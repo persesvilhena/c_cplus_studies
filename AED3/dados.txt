@@ -1,0 +1,21 @@
+|||||||||||||||||||||||||||| 1 |||||||||||||||||||||||||||
+|CODIGO: 1  
+|ARTISTA: iron maiden
+|NOME: iron maiden
+|ANO: 1980  
+|FAIXAS: 9  
+|VALOR: 30  
+|||||||||||||||||||||||||||| 2 |||||||||||||||||||||||||||
+|CODIGO: 3  
+|ARTISTA: iron maiden
+|NOME: the number of the beast
+|ANO: 1982  
+|FAIXAS: 10  
+|VALOR: 30  
+|||||||||||||||||||||||||||| 3 |||||||||||||||||||||||||||
+|CODIGO: 4  
+|ARTISTA: iron maiden
+|NOME: piece of mind
+|ANO: 1983  
+|FAIXAS: 11  
+|VALOR: 30  

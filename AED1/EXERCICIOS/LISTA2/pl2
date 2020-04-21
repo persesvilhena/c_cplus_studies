@@ -1,0 +1,22 @@
+if(des == 1){
+       ida = 500;
+       idav = 900;
+}
+if(des == 2){
+       ida = 350;
+       idav = 650;
+}
+if(des == 3){
+       ida = 350;
+       idav = 600;
+}
+if(des == 4){
+       ida = 300;
+       idav = 550;
+}
+if(r == 1){
+     printf("valor: %.2f", idav);
+}else{
+     printf("valor: %.2f", ida);
+}
+     
